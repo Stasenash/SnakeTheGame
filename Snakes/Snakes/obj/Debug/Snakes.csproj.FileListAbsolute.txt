@@ -1,0 +1,11 @@
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.csprojAssemblyReference.cache
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.MainMenu.resources
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.Properties.Resources.resources
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.csproj.GenerateResource.cache
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Snakes\Snakes\bin\Debug\Snakes.exe.config
+C:\Users\stasi\source\repos\Snakes\Snakes\bin\Debug\Snakes.exe
+C:\Users\stasi\source\repos\Snakes\Snakes\bin\Debug\Snakes.pdb
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.exe
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.pdb
+C:\Users\stasi\source\repos\Snakes\Snakes\obj\Debug\Snakes.Game.resources

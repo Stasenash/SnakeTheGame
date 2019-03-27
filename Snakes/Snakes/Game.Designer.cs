@@ -40,7 +40,7 @@
             // head
             // 
             this.head.CausesValidation = false;
-            this.head.Location = new System.Drawing.Point(64, 155);
+            this.head.Location = new System.Drawing.Point(0, 0);
             this.head.Name = "head";
             this.head.Size = new System.Drawing.Size(31, 29);
             this.head.TabIndex = 0;

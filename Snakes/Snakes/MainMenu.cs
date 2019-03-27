@@ -29,7 +29,7 @@ namespace Snakes
 
         private void playBut_MouseClick(object sender, MouseEventArgs e)
         {
-            Game gf = new Game();
+            Game gf = new Game(32,32);
             this.Hide();
             gf.Show();
         }

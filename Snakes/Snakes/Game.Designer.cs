@@ -30,32 +30,27 @@
         {
             this.components = new System.ComponentModel.Container();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
-            this.head = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // gameTimer
             // 
             this.gameTimer.Tick += new System.EventHandler(this.gameTimer_Tick);
             // 
-            // head
-            // 
-            this.head.CausesValidation = false;
-            this.head.Location = new System.Drawing.Point(0, 0);
-            this.head.Name = "head";
-            this.head.Size = new System.Drawing.Size(31, 29);
-            this.head.TabIndex = 0;
-            this.head.UseVisualStyleBackColor = true;
-            this.head.KeyDown += new System.Windows.Forms.KeyEventHandler(this.head_KeyDown);
-            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(509, 381);
-            this.Controls.Add(this.head);
+            this.ClientSize = new System.Drawing.Size(259, 206);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Game";
-            this.Text = "Game";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "SnakeTheGame";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Game_FormClosing);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Game_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);
             this.ResumeLayout(false);
 
         }
@@ -63,6 +58,5 @@
         #endregion
 
         private System.Windows.Forms.Timer gameTimer;
-        private System.Windows.Forms.Button head;
     }
 }

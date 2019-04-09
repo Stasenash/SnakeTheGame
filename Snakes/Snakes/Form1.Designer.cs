@@ -54,6 +54,7 @@
             this.Controls.Add(this.playBut);
             this.Name = "MainMenu";
             this.Text = "Menu";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenu_FormClosing);
             this.ResumeLayout(false);
 
         }

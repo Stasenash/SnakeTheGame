@@ -29,9 +29,14 @@ namespace Snakes
 
         private void playBut_MouseClick(object sender, MouseEventArgs e)
         {
-            Game gf = new Game(32,32);
+            Game gf = new Game(60,30,30);
             this.Hide();
             gf.Show();
+        }
+
+        private void MainMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
